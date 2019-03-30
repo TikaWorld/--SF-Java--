@@ -1,8 +1,10 @@
+package Class;
+
 public class Overloading {
     public static void main(String[] agr) {
         OverloadingTest test1 = new OverloadingTest(1);
         OverloadingTest test2 = new OverloadingTest("String");
-        String[] words = {"Hello", "Overloading"};
+        String[] words = {"Hello", "Class.Overloading"};
         OverloadingTest test3 = new OverloadingTest(words);
     }
 }

@@ -1,3 +1,5 @@
+package Class;
+
 public class Method {
     public static void main(String[] agr) {
         MethodTest test = new MethodTest("Create!");

@@ -1,4 +1,4 @@
-package AccessModifier;
+package Class.AccessModifierClass;
 
 public class A {
     public int field1;
@@ -24,8 +24,8 @@ public class A {
         method3();
     }
 
-    public void method1() {System.out.println("Call Public Method!");}
-    void method2() {System.out.println("Call Default Method!");}
-    private void method3() {System.out.println("Call Private Method!\n");}
+    public void method1() {System.out.println("Call Public Class.Method!");}
+    void method2() {System.out.println("Call Default Class.Method!");}
+    private void method3() {System.out.println("Call Private Class.Method!\n");}
 }
 

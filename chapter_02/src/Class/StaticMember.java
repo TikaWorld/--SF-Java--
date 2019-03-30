@@ -1,3 +1,5 @@
+package Class;
+
 public class StaticMember {
     public static void main(String[] arg) {
         StaticMemberTest test1 = new StaticMemberTest();

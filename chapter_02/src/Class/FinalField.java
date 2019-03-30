@@ -1,3 +1,5 @@
+package Class;
+
 public class FinalField {
     public static void main(String[] arg) {
         FinalFieldTest test = new FinalFieldTest();

@@ -1,3 +1,5 @@
+package Class;
+
 import java.lang.reflect.Method;
 
 public class PrintAnnotationExample {
@@ -26,16 +28,16 @@ public class PrintAnnotationExample {
 class Service {
     @PrintAnnotation
     void method1() {
-        System.out.println("Execute Method 1");
+        System.out.println("Execute Class.Method 1");
     }
 
     @PrintAnnotation
     void method2() {
-        System.out.println("Execute Method 2");
+        System.out.println("Execute Class.Method 2");
     }
 
     @PrintAnnotation
     void method3() {
-        System.out.println("Execute Method 3");
+        System.out.println("Execute Class.Method 3");
     }
 }

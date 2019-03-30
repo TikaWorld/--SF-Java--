@@ -1,3 +1,5 @@
+package Class;
+
 public class ClassField {
     public static void main(String[] arg) {
         FieldTest test = new FieldTest("Change");

@@ -1,3 +1,5 @@
+package Class;
+
 public class SingletonClass {
     public static void main(String[] arg) {
         SingletonTest obj1 = SingletonTest.getInstance();
