@@ -1,7 +1,7 @@
 package Class.AccessModifierClass;
 
 public class B {
-    public Class.AccessModifierClass.A a = new Class.AccessModifierClass.A();
+    public A a = new A();
     public B() {
         System.out.println("Class in same Class.pakage\n");
 
